@@ -3,14 +3,15 @@
 ---
 ## What is it?
 Just some examples of CustomViewGroups.
+
 <img src="art/screenshot.png" width=auto height="450"/>
 
-The first is the TextImageView which extends from ViewGroup and measure and layout it own childs which will be inflated in it.
+The first is the [TextImageView](https://github.com/StefMa/CustomViews/blob/master/app/src/main/java/guru/stefma/layouts/view/TextImageView.java) which extends from ViewGroup and measure and layout it own childs which will be inflated in it.
 
-RightToLeftLayout is a "fully" Android layout like a LinearLayout. You can use it in your XML like any other ViewGroups.
+[RightToLeftLayout](https://github.com/StefMa/CustomViews/blob/master/app/src/main/java/guru/stefma/layouts/view/RightToLeftLayout.java) is a "fully" Android layout like a LinearLayout. You can use it in your XML like any other ViewGroups.
 The childs will be measured from right to left. Instead from left to right (like a LinearLayout).
 
-The last TextImageFullyView extends from View and put it "childs" via the onDraw(Canvas can) methods.
+The last [TextImageFullyView](https://github.com/StefMa/CustomViews/blob/master/app/src/main/java/guru/stefma/layouts/view/TextImageFullyView.java) extends from View and put it "childs" via the onDraw(Canvas can) methods.
 Touched (or clicks) are detected via an OnTouchListener.
 
 --
