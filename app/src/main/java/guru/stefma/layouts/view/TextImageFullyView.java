@@ -43,6 +43,7 @@ public class TextImageFullyView extends View implements View.OnTouchListener {
         setMeasuredDimension(widthMeasureSpec, 120);
     }
 
+    @Override
     public boolean onTouch(View v, MotionEvent event) {
         if (event.getX(0) >= 0 && event.getX(0) <= getMeasuredWidth() - bitmap.getWidth() * 3) {
             Log.e("Touched", "Text ");
