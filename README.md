@@ -19,3 +19,4 @@ Touched (or clicks) are detected via an OnTouchListener.
 * Medium Performance Part [1](https://medium.com/android-news/prefmatters-using-custom-views-in-android-to-improve-performance-part-1-4dc9bdd75396), [2](https://medium.com/android-news/perfmatters-introduction-to-custom-viewgroups-to-improve-performance-part-2-f14fbcd47c), [3](https://medium.com/android-news/perfmatters-building-a-custom-viewgroup-part-3-165dae1bb5ff)
 * TweetLayoutView [Blog](http://lucasr.org/2014/05/12/custom-layouts-on-android/), [Java](https://github.com/lucasr/android-layout-samples/blob/master/src/main/java/org/lucasr/layoutsamples/widget/TweetLayoutView.java), [XML](https://github.com/lucasr/android-layout-samples/blob/master/src/main/res/layout/tweet_layout_view.xml)
 * [ProfilePhotoLayout](https://sriramramani.wordpress.com/2015/05/06/custom-viewgroups/)
+* [Writing Custom Views (I/O 2013)](https://www.youtube.com/watch?v=NYtB6mlu7vA)
