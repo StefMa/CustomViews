@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "guru.stefma.badgegridlayout"
+        applicationId "guru.stefma.layouts"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
