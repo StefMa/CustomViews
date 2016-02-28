@@ -6,11 +6,18 @@ android {
 
     defaultConfig {
         applicationId "guru.stefma.layouts"
-        minSdkVersion 19
+        minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+
+        generatedDensities = []
     }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+
     buildTypes {
         release {
             minifyEnabled false
